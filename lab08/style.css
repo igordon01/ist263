@@ -6,3 +6,5 @@ nav a {color:  #5F9EA0;}
 nav a:hover {background-color: #ADD8E6;}
 nav {padding: 10px;}
 nav {margin-bottom: 30px}
+.footer-right {float: right;}
+.img1 {float: left; margin-right: 10px;}
