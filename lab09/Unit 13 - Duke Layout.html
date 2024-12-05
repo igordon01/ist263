@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 13 - Duke Layout</title>
+    <style>
+        body {
+            font-family: "Open Sans", Roboto, "Helvetica Neue", Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5F5;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px;
+        }
+
+        .up-next, .resources {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .up-next {
+            width: 30%;
+        }
+
+        .resources {
+            width: 65%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .event {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #003366;
+        }
+
+        h3 {
+            color: #1560BD;
+        }
+
+        .resource-item {
+            width: 30%;
+            text-align: center;
+        }
+
+        .resource-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .resource-item p {
+            margin-top: 10px;
+            color: #003366;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="up-next">
+            <h2>Up Next</h2>
+
+            <div class="event">
+                <p>10/1 Effective March 10, 2020, all Duke-sponsored events over 50 people have been cancelled, rescheduled, postponed or virtualized. Please check with the event sponsor regarding event status.
+</p>
+                <p>10.20</p>
+                
+            </div>
+
+            <div class="event">
+                <h3>Class of 2021 Pratt Master’s in-Person Recognition Celebration</h3>
+                <p>Monday, May 3 <br>9:00am to 11:00am<br>Cameron Indoor Stadium<br>Rubenstein Arts Center</p>
+            </div>
+
+            
+            <div class="event">
+                <h3>Baseball vs. William and Mary</h3>
+                <p>Tuesday, May 4 <br>96:00pm to 6:00pm<br>Durham Bulls Athletic Park (DBAP)</p>
+            </div>
+
+                   
+            <div class="event">
+                <h3>Women’s Soccer vs Ole Miss at NCAA Tournament 3rd round</h3>
+                <p>Wednesday, May 5 <br>12:00pm to 12:00pm<br>Away/Neutral Site Game, See Description</p>
+            </div>
+
+            <p>More from Events at Duke</p>
+        </div>
+
+     
+        <div class="resources">
+            <div class="resource-item">
+                <img src="https://duke.edu/assets/img/resized/student-assistance.jpg" alt="Racial Equity at Duke">
+                <p>Duke Student Assistance Fund</p>
+            </div>
+
+            <div class="resource-item">
+                <img src="https://duke.edu/assets/img/resized/scholarship.jpg" alt="Arts at Duke">
+                <p>Duke Scholarship and Engagement on COVID-19</p>
+            </div>
+
+            <div class="resource-item">
+                <img src="https://duke.edu/assets/img/resized/anti-racism-tile.jpg" alt="Coronavirus Response">
+                <p>Anti-Racism at Duke</p>
+            </div>
+
+            <div class="resource-item">
+                <img src="https://duke.edu/assets/img/resized/keep-learning.jpg" alt="Climate Change at Duke">
+                <p> Keep Learning</p>
+            </div>
+
+            <div class="resource-item">
+                <img src="https://duke.edu/assets/img/resized/keep-teaching.jpg" alt="Research at Duke">
+                <p>Flexible Teaching</p>
+            </div>
+
+            <div class="resource-item">
+                <img src="https://duke.edu/assets/img/resized/keep-working.jpg" alt="For the Media">
+                <p>Keep Working</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
