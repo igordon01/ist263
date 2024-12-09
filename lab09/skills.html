@@ -5,8 +5,10 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
-        .row-container {display:flex;}
-        .aside {background-color: #382fde; border-radius: 10px; padding: 20px; width: 250px;}
+        body > *:not(nav) {margin: 20px;}
+        .flexbox2 {display:flex; margin-top: 20px;}  
+        .row-container {display:flex; flex:3; justify-content: space-evenly;}
+        .flexbox2 > aside {flex:1; background-color: #382fde; border-radius: 10px; padding: 20px;}
     </style>
 </head>
 <body>
@@ -19,36 +21,38 @@
     <p>
         In my 23 years of life I have aquired many skills through my academic and extra-curricular pursuites. 
     </p>
-    <div class="row-container">
-        <div>
-            <i class="fa-brands fa-google" style="font-size: 50px;"></i><br>
-            <p>Google Workspace</p>
+    <div class="flexbox2">
+        <div class="row-container">
+            <div>
+                <i class="fa-brands fa-google" style="font-size: 50px;"></i><br>
+                <p>Google Workspace</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-microsoft" style="font-size: 50px;"></i><br>
+                <p>Microsoft Office</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-instagram" style="font-size: 50px;"></i><br>
+                <p>Instagram</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-tiktok" style="font-size: 50px;"></i><br>
+                <p>TikTok</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code" style="font-size: 50px;"></i><br>
+                <p>HTML</p>
+            </div>
         </div>
-        <div>
-            <i class="fa-brands fa-microsoft" style="font-size: 50px;"></i><br>
-            <p>Microsoft Office</p>
-        </div>
-        <div>
-            <i class="fa-brands fa-instagram" style="font-size: 50px;"></i><br>
-            <p>Instagram</p>
-        </div>
-        <div>
-            <i class="fa-brands fa-tiktok" style="font-size: 50px;"></i><br>
-            <p>TikTok</p>
-        </div>
-        <div>
-            <i class="fa-solid fa-code" style="font-size: 50px;"></i><br>
-            <p>HTML</p>
-        </div>
-    </div> 
-    <aside>
-        <h2>Other Skills</h2>
-        <p>
-            iMovie<br>
-            Canva<br>
-            Python<br>
-            CapCut<br>
-        </p>
-    </aside> 
+        <aside>
+            <h2>Other Skills</h2>
+            <p>
+                iMovie<br>
+                Canva<br>
+                Python<br>
+                CapCut<br>
+            </p>
+        </aside> 
+    </div>
 </body>
 </html>
