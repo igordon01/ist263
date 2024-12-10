@@ -7,10 +7,10 @@
     <title>Lab 11</title>
     <script>
         function WinnerMessage () {
-            document.getElementById("messages").innerhtml = 'You Won!';
+            document.getElementById("messages").innerHTML = 'You Won!';
         }
         function TryAgain () {
-            document.getElementById("messages").innerhtml = 'Wrong Shell - Try Again';
+            document.getElementById("messages").innerHTML = 'Wrong Shell - Try Again';
         }
         function ShuffleShells() {
             document.getElementByID("first").style.order = Math.floor((Math.random()* 3) + 2);
