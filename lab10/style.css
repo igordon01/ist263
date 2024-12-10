@@ -6,7 +6,7 @@ nav a {color:  #5F9EA0;}
 nav a:hover {background-color: #ADD8E6;}
 .footer-right {float: right;}
 @media only screen and (max-width: 768px) 
-{
-nav a {display:block; width: 100%; padding: 10px;}
-nav span {display: none;}
-}
+    {
+    nav a {display:block; width: 100%; padding: 10px;}
+    nav span {display: none;}
+    }
