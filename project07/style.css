@@ -38,6 +38,7 @@ footer a:visited {color: #f5dada; text-decoration: underline;}
         background-color: #3f251a;
     }
     .links a {
+        display: none;
         text-align: center;
         padding: 10px;
         border-top: 1px solid #f5dada;

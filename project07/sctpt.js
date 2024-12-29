@@ -4,7 +4,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (menuToggle && links) {
         menuToggle.addEventListener('click', () => {
-            links.classList.toggle('active'); // Show or hide the links
+            links.classList.toggle('active'); // Add or remove the "active" class
         });
+    } else {
+        console.error('Menu toggle or links element not found.');
     }
 });
