@@ -1,4 +1,4 @@
-* {margin: 0; padding: 0;}
+* {margin: 0; padding: 0; box-sizing: border-box;}
 body {background-color:#f5dada; font-family: 'Times New Roman', serif;}
 header nav {display: flex; justify-content: space-between; background-color:#4a2b1f; padding: 20px; align-items: center; margin: 0 auto}
 header nav a {color:#f5dada; text-align: right; text-decoration: none;}
@@ -9,6 +9,6 @@ header nav img {height: 60px;}
 .column1, .column2 {flex: 1 1 50%; padding: 30px;}
 .column1 img {max-width: 100%; height: auto; width: 200px; text-align: center;}
 .column1 h1 {margin-top: 15px; font-size: 2em; color: #444; text-align: center;}
-.column2 {text-align: center; flex-wrap: wrap; font-size: 1.5em;}
+.column2 {text-align: center; font-size: 1.2em;}
 
-footer {background-color:#4a2b1f; color:#f5dada; text-align: center; padding: 30px}
+footer {background-color:#4a2b1f; color:#f5dada; text-align: left; padding: 30px}
