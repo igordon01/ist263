@@ -14,9 +14,8 @@ header nav img {height: 60px;}
 .column2 {text-align: center; font-size: 1.2em; line-height: 1.5;}
 
 h1 {color:#3f251a; text-align: center; font-size: 2em;}
-.gallery {display: flex; justify-content: space-between; gap: 16px;margin: 0 auto; max-width: 100%;}
+.gallery {display: flex; justify-content: space-between; gap: 16px; margin: 0 auto; max-width: 100%; flex-wrap: wrap;}
 .gallery img {flex: 1; max-width: calc(33.33% - 16px); height: auto; display: block; object-fit: cover;}
-  
 
 footer {background-color:#3f251a; color:#f5dada; text-align: center; padding: 30px; font-size: 1.2em;}
 footer a:link {color: #f5dada; text-decoration: none;}
