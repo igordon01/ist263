@@ -1,13 +1,14 @@
 * {margin: 0; padding: 0;}
-body {background-color:#f5dada; font-family: 'Times New Roman', serif;}
-header nav {display: flex; background-color:#4a2b1f; padding: 20px; margin: 0 auto}
-header nav a {display: flex; color:#f5dada; justify-content: flex-end; text-decoration: none;}
+body {background-color:#f5dada; font-family: 'Times New Roman', serif; margin: 10px;}
+header nav {display: flex; align-items: center; background-color:#4a2b1f; padding: 20px;}
+header nav .links {margin-left: auto; display: flex; gap: 15px;}
+header nav a {color:#f5dada; text-decoration: none;}
 header nav a:hover {text-decoration: underline;}
-header nav img {height: 60px; }
+header nav img {height: 60px;}
 
-.flexbox {display: flex; flex-wrap: wrap; justify-content: space-between;}
-.column1, .column2 {flex: 1 1 45%; padding: 20px;}
-.column1 img {max-width: 100%; height: auto; width: 200px; text-align: center;}
+.flexbox {display: flex; flex-wrap: nowrap; justify-content: space-between; padding: 20px;}
+.column1, .column2 {flex: 1 1 50%; padding: 30px;}
+.column1 img {max-width: 100%; height: auto; width: 200px;}
 .column1 h1 {margin-top: 15px; font-size: 2em; color: #444; text-align: center;}
 .column2 {text-align: center; font-size: 1.2em;}
 
