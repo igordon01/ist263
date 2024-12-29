@@ -13,7 +13,3 @@ header nav img {height: 60px;}
 
 
 footer {background-color:#4a2b1f; color:#f5dada; text-align: center; padding: 30px}
-
-@media only screen and (max-width: 768px){
-    nav a {display:block; width: 100%; padding: 10px;}
-}
