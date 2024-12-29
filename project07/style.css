@@ -22,28 +22,23 @@ footer a:visited {color: #f5dada; text-decoration: underline;}
     header nav {
         flex-wrap: wrap;
     }
-    .menu-toggle {
-        display: block;
-        background: none;
-        border: none;
-        font-size: 2em;
-        color: #f5dada;
+    header nav .menu-toggle {
+        display: block; /* Visible on smaller screens */
         margin-left: auto;
-        cursor: pointer;
     }
-    .links {
-        display: none;
+    header nav .links {
+        display: none; /* Hidden by default */
         flex-direction: column;
         width: 100%;
         background-color: #3f251a;
     }
-    .links a {
+    header nav .links.active {
+        display: flex; /* Show when active */
+    }
+    header nav .links a {
         text-align: center;
         padding: 10px;
         border-top: 1px solid #f5dada;
-    }
-    .links.active {
-        display: flex;
     }
     .flexbox {
         flex-wrap: wrap;
