@@ -14,6 +14,7 @@ header nav img {height: 60px;}
 .column2 {text-align: center; font-size: 1.2em; line-height: 1.5;}
 
 footer {background-color:#3f251a; color:#f5dada; text-align: center; padding: 30px; font-size: 1.2em;}
+footer a:link {color: #f5dada; text-decoration: none;}
 
 @media only screen and (max-width: 768px){
     nav a .links {display:block; width: 100%; padding: 10px;}
