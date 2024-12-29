@@ -6,6 +6,7 @@ header nav img {height: 60px;}
 
 .flexbox {display: flex; justify-content: space-between; padding: 20px; gap: 20px;}
 .column1 {flex: 1; text-align: center;}
+.column1 img {max-width: 100%; height: auto; width: 200px; display: block;}
 .column1 h1 {margin-top: 15px; font-size: 2em; color: #444;}
 .column2 {flex: 1; text-align: center; text-wrap: wrap;}
 
