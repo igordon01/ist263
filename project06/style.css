@@ -14,3 +14,7 @@ header nav img {height: 60px;}
 .column2 {text-align: center; font-size: 1.2em; line-height: 1.5;}
 
 footer {background-color:#4a2b1f; color:#f5dada; text-align: center; padding: 30px; font-size: 1.2em;}
+
+@media only screen and (max-width: 768px){
+    nav a {display:block; width: 100%; padding: 10px;}
+    .flexbox {display: flex; flex-wrap: wrap;}}
