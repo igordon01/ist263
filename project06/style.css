@@ -1,8 +1,15 @@
 body {background-color:#f5dada; font-family: 'Times New Roman', serif;}
 header nav {display: flex; justify-content: space-between; background-color:#4a2b1f; padding: 20px;}
-header nav a {color:#f5dada; text-align: right;}
+header nav a {color:#f5dada; text-align: right; text-decoration: none;}
 header nav a:hover {text-decoration: underline;}
 header nav img {height: 60px;}
+
+.flexbox {display: flex; justify-content: space-between; padding: 20px; gap: 20px;}
+.column1 {flex: 1; text-align: center;}
+.column1 h1 {margin-top: 15px; font-size: 2em; color: #444;}
+.column2 {flex: 1; text-align: center; text-wrap: wrap;}
+
+
 footer {background-color:#4a2b1f; color:#f5dada; text-align: center; padding: 30px}
 
 @media only screen and (max-width: 768px){
