@@ -1,2 +1,10 @@
-body {background-color:#f5dada}
-nav {background-color: #873e23; padding: 30px; margin-bottom: 30px}
+body {background-color:#f5dada; font-family: 'Times New Roman', serif;}
+header nav {display: flex; justify-content: space-around; background-color:#f5dada; padding: 30px; margin-bottom: 30px}
+header nav a {color:#4a2b1f;}
+header nav a:hover {text-decoration: underline;}
+header nav img {height: 40px;}
+footer {background-color:#4a2b1f; color:#f5dada; text-align: center; padding: 30px}
+
+@media only screen and (max-width: 768px){
+    nav a {display:block; width: 100%; padding: 10px;}
+}
