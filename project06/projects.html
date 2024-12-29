@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,11 +10,13 @@
 <body>
     <header>
         <nav>
-            <a href="skeletonsite.html"><img src="../project/images/sitelogo.png" alt="Logo"></a>
-            <a href="skeletonsite.html">Home</a>
-            <a href="projects.html">Projects</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="mailto:igordo01@syr.edu">Contact</a>
+            <img src="../project/images/sitelogo.png" alt="Logo of a large letter G with an eye inside">
+            <div class="links">
+                <a href="skeletonsite.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="mailto:igordo01@syr.edu">Contact</a>
+            </div>
         </nav>
     </header>
     <main>
@@ -57,5 +60,11 @@
     <footer>
         <p>Isabel Gordon &bull; 617-895-8888 &bull; <a href="mailto:igordo01@syr.edu">igordo01@syr.edu</a></p>
     </footer>
+    <script>
+        function toggleMenu() {
+            const links = document.querySelector('.links');
+            links.classList.toggle('show');
+        }
+    </script>
 </body>
 </html>
