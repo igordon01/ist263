@@ -1,128 +1,29 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-body {
-    background-color: #f5dada;
-    font-family: 'Times New Roman', serif;
-    margin: 10px;
-}
-header nav {
-    display: flex;
-    align-items: center;
-    background-color: #3f251a;
-    padding: 20px;
-}
-header nav .links {
-    margin-left: auto;
-    display: flex; /* Always flex on larger screens */
-    gap: 20px;
-    font-size: 1.2em;
-}
-header nav a {
-    color: #f5dada;
-    text-decoration: none;
-}
-header nav a:hover {
-    text-decoration: underline;
-}
-header nav img {
-    height: 60px;
-}
-header nav .menu-toggle {
-    display: none; /* Default hidden */
-    font-size: 1.5em;
-    color: #f5dada;
-    cursor: pointer;
-    background: none;
-    border: none;
-}
+* {margin: 0; padding: 0;}
+body {background-color:#f5dada; font-family: 'Times New Roman', serif; margin: 10px;}
+header nav {display: flex; align-items: center; background-color:#3f251a; padding: 20px;}
+header nav .links {margin-left: auto; display: flex; gap: 20px; font-size: 1.2em;}
+header nav a {color:#f5dada; text-decoration: none;}
+header nav a:hover {text-decoration: underline;}
+header nav img {height: 60px;}
 
-/* Flexbox layout */
-.flexbox {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    padding: 20px;
-}
-.column1,
-.column2 {
-    flex: 1 1 50%;
-    padding: 30px;
-}
-.column1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.column1 img {
-    max-width: 100%;
-    height: auto;
-    width: 200px;
-}
-.column1 h1 {
-    margin-top: 15px;
-    font-size: 2em;
-    color: #3f251a;
-    text-align: center;
-}
-.column2 {
-    text-align: center;
-    font-size: 1.2em;
-    line-height: 1.5;
-}
+.flexbox {display: flex; flex-wrap: nowrap; justify-content: space-between; padding: 20px;}
+.column1, .column2 {flex: 1 1 50%; padding: 30px;}
+.column1 {display: flex; flex-direction: column; align-items: center;}
+.column1 img {max-width: 100%; height: auto; width: 200px;}
+.column1 h1 {margin-top: 15px; font-size: 2em; color: #3f251a; text-align: center;}
+.column2 {text-align: center; font-size: 1.2em; line-height: 1.5;}
 
-/* Footer */
-footer {
-    background-color: #3f251a;
-    color: #f5dada;
-    text-align: center;
-    padding: 30px;
-    font-size: 1.2em;
-}
-footer a:link {
-    color: #f5dada;
-    text-decoration: none;
-}
-footer a:visited {
-    color: #f5dada;
-    text-decoration: underline;
-}
+h1 {color:#3f251a; text-align: center; font-size: 2em;}
+.gallery {display: flex; justify-content: space-between; gap: 16px;margin: 0 auto; max-width: 100%;}
+.gallery img {flex: 1; max-width: calc(33.33% - 16px); height: auto; display: block; object-fit: cover;}
+  
 
-/* Responsive styles */
-@media only screen and (max-width: 768px) {
-    header nav {
-        flex-wrap: wrap;
-    }
-    header nav .menu-toggle {
-        display: block; /* Visible only on smaller screens */
-        margin-left: auto;
-    }
-    header nav .links {
-        display: none; /* Hidden by default */
-        flex-direction: column;
-        width: 100%;
-        background-color: #3f251a;
-    }
-    header nav .links.active {
-        display: flex; /* Show when active */
-    }
-    header nav .links a {
-        text-align: center;
-        padding: 10px;
-        border-top: 1px solid #f5dada;
-    }
-    .flexbox {
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-}
+footer {background-color:#3f251a; color:#f5dada; text-align: center; padding: 30px; font-size: 1.2em;}
+footer a:link {color: #f5dada; text-decoration: none;}
+footer a:visited {color: #f5dada; text-decoration: underline;}
 
-@media only screen and (min-width: 769px) {
-    header nav .menu-toggle {
-        display: none; /* Ensure hidden on larger screens */
-    }
-    header nav .links {
-        display: flex; /* Always visible */
-    }
-}
+@media only screen and (max-width: 768px){
+    header nav {flex-wrap: wrap;}
+    .links {display: flex; flex-direction: column; width: 100%;}
+    .links a {text-align: center; padding: 10px; border-top: 1px solid #f5dada; width: 100%;}
+    .flexbox {display: flex; flex-wrap: wrap;flex-direction: column;}}

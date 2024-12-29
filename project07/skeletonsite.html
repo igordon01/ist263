@@ -10,7 +10,6 @@
     <header>
         <nav>
             <img src="../project/images/sitelogo.png" alt="Logo of a large letter G with an eye inside">
-            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
             <div class="links">
                 <a href="skeletonsite.html">Home</a>
                 <a href="projects.html">Projects</a>
@@ -33,17 +32,5 @@
     <footer>
         <p>Isabel Gordon &bull; 617-895-8888 &bull; <a href="https://www.linkedin.com/in/igordon1/">LinkedIn</a></p>
     </footer>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const menuToggle = document.querySelector('.menu-toggle');
-            const links = document.querySelector('.links');
-
-            if (menuToggle && links) {
-                menuToggle.addEventListener('click', () => {
-                    links.classList.toggle('active'); // Add or remove the "active" class
-                });
-            }
-        });
-    </script>
 </body>
 </html>
