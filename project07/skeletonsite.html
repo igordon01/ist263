@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isabel Gordon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="../project/images/sitelogo.png" alt="Logo of a large letter G with an eye inside"></a>
+            <span class="toggle" onclick="toggleMenu()">☰</span>
+            <div class="links">
+                <a href="skeletonsite.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="mailto:igordo01@syr.edu">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="flexbox">
+            <div class="column1">
+                <img src="../project/images/headshot.jpg" alt="Headshot" class="responsive-img" width="" height="">
+                <h1>Isabel Gordon</h1>
+            </div>
+            <div class="column2">
+                <p>I am a junior at Syracuse University, majoring in Innovation, Society and Technology with a concentration in web design. I have a fascination with digital and social media and its ability to affect the way people engage with information. I am dedicated to pursuing a career in public relations and social media marketing, where I can combine my expertise in technology with her enthusiasm for branding and contemporary trends. To complement my studies, I have participated in multiple student run organizations including the Women in Communications group, Hill Communications, and Syracuse Hillel where I served as the Social Media Chair. In my spare time, I enjoy traveling and I will be studying abroad in Barcelona during the Spring 2025 semester.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Isabel Gordon &bull; 617-895-8888 &bull; <a href="https://www.linkedin.com/in/igordon1/">LinkedIn</a></p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const links = document.querySelector('.links');
+            links.classList.toggle('show');
+        }
+    </script>
+</body>
+</html>
