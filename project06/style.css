@@ -4,7 +4,7 @@ header nav {display: flex; align-items: center; background-color:#4a2b1f; paddin
 header nav .links {margin-left: auto; display: flex; gap: 15px;}
 header nav a {color:#f5dada; text-decoration: none;}
 header nav a:hover {text-decoration: underline;}
-header nav img {height: 60px;}
+header nav img {height: 80px;}
 
 .flexbox {display: flex; flex-wrap: nowrap; justify-content: space-between; padding: 20px;}
 .column1, .column2 {flex: 1 1 50%; padding: 30px;}
